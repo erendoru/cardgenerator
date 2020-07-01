@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.personbutton {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+  margin: 100px 0 50px 0;
+}
+
+.personbutton:hover {
+  background-color: #3da73e;
+}
+.personbutton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+p {
+  margin: 5px;
+}
+
+.contact {
+  padding: 7px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(29, 78, 32);
+  outline: none;
+  cursor: pointer;
+}
